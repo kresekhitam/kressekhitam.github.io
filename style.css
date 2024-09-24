@@ -10,3 +10,17 @@
 section {
   padding-top: 5rem;
 }
+
+.rounded-circle {
+  border-radius: 50; /* Membuat gambar menjadi bulat */
+  width: 200px; /* Menyesuaikan ukuran gambar */
+  height: 200px; /* Pastikan tingginya sama agar gambar tetap bulat */
+  object-fit: cover; /* Agar gambar tetap proporsional */
+}
+
+.container1 {
+  display: flex;
+  justify-content: center; /* Memposisikan gambar di tengah secara horizontal */
+  align-items: center; /* Memposisikan gambar di tengah secara vertikal */
+  height: 100vh; /* Tinggi div diatur 100% dari viewport untuk melihat efek vertikal */
+}
